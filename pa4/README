@@ -1,0 +1,38 @@
+Programming Assignment 4
+Finding Books
+Author: Dylan Woodbury
+
+Files Included
+	Main
+	-getBooks.c
+	ADTs
+	-HashTable.c
+	-HashTable.h
+	-BookLibraryList.c
+	-BookLibraryList.h
+	-LibraryList.c
+	-LibraryList.h
+	Driver Programs
+	-HashTableDriver.c
+	-BookLibraryListDriver.c
+	-LibraryListDriver.c
+	Other Files
+	-Makefile
+	-README
+	total files: 12
+
+When you 'make', all warnings are about unused parameter variables,
+little things that shouldn't matter with the djb2 algorithm, etc.
+
+To run a driver program after 'make', just enter one of the
+driver executable names.
+
+To run the main program, enter 'findBooks' followed by a proper
+library input file and a proper request input file.
+Library/book pairs are inserted into the hash table, which
+contains the key of the book title and a list of library IDs.
+
+Thanks for grading!
+Dylan Woodbury
+dwoodbur@ucsc.edu
+ID: 1306353

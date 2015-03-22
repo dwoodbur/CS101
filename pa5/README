@@ -1,0 +1,25 @@
+Assignment 5 README File
+Dylan Woodbury
+
+Contained are the following files:
+	-shortestPath.c
+	-Graph.c
+	-Graph.h
+	-GraphDriver.c
+	-List.c
+	-List.h
+	-ListDriver.c
+	-Makefile
+	-README
+
+I ran it on tests including up to 10 000, which it ran
+well at, at a quick speed it seemed.
+
+TO USE
+"make" makes the following:
+	-shortestDriver
+		Run with "shortestDriver [text file]".
+	-GraphDriver
+		Runs specific trials with the Graph ADT.
+	-ListDriver
+		Runs specific trials with the List ADT.

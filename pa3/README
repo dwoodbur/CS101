@@ -1,0 +1,29 @@
+PROGRAM 3
+Author: Dylan Woodbury (dwoodbur)
+
+Files Included
+	-insertionSort.c
+	-insertionSort.h
+	-heapSort.c
+	-heapSort.h
+	-heap.c
+	-heap.h
+	-heapDriver.c
+	-sortPrint.c
+	-sortComp.c
+	-Makefile
+	-README
+
+Data for sortComp Tests
+			
+sort alg	100	1000	10000	100000
+heap		0	0	.38	38.86001
+		-	-	.39	38.41
+		-	-	.39	38.61999
+insertion	0	0	.11	10.75
+		-	-	.10	10.69
+		-	-	.11	10.75
+
+Given the results, it is obvious that my implementations of the
+insertion sort runs more efficiently than the heap sort. Results
+also scale X100 for X10 size, implying O(n^2) growth.

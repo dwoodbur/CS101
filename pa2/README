@@ -1,0 +1,17 @@
+Name: Dylan Woodbury (dwoodbur)
+Assignment: Program 2
+Date: 4/18/2014
+
+FILES
+List.c     -     Contains List module and definitions.
+store.c    -     Main program, uses lists to store customer
+		 data and display it to the user.
+Listdr.c   -     Driver program to test the List module with.
+List.h     -     Contains definitions and prototypes the classes
+		 using List need.
+Makefile   -     Compiles program/sets up execution.
+README
+
+
+Note: Have been having difficulty with Makefile, if it doesn't
+	work, use "gcc store.c" and "a.out" to run the program.
